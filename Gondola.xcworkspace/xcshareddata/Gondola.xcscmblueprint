@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FFFBD103B1794ED014ADDB22CA21C2EDBFA9F37" : 9223372036854775807,
+    "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CCE3000F-7466-4DA6-BB8E-9A282DEE50EB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FFFBD103B1794ED014ADDB22CA21C2EDBFA9F37" : "..",
+    "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71" : "gondola\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Gondola",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Gondola.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CheesecakeLabs\/CKLApp-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FFFBD103B1794ED014ADDB22CA21C2EDBFA9F37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eita\/eitapay-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71"
+    }
+  ]
+}

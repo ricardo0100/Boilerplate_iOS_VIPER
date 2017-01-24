@@ -1,0 +1,26 @@
+
+//
+//  Gondola
+//
+//  Created by MARCELO GRACIETTI on 23/01/17.
+//  Copyright © 2017 Cheesecake Labs. All rights reserved...
+//
+
+
+// General
+GENERIC_ERROR_MESSAGE = "Não foi possível realizar esta operação 😬";
+TITLE_ERROR = "Erro";
+TITLE_WAIT = "Aguarde";
+TITLE_CONFIRM = "Confirmação";
+WAIT_NEXT_FEATURES = "O time da Cheesecake está implementando as proximas telas";
+CANCEL = "Cancelar";
+NO_INTERNET_MESSAGE = "Por favor, verifique sua conexão com a internet e tente novamente.";
+
+
+
+}
+
+
+
+
+

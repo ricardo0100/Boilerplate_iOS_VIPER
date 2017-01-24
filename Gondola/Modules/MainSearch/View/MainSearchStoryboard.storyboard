@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="eow-XT-pG2">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SanFranciscoText-Light.otf">
+            <string>SanFranciscoText-Light</string>
+        </array>
+        <array key="SanFranciscoText-Medium.otf">
+            <string>SanFranciscoText-Medium</string>
+        </array>
+        <array key="SanFranciscoText-Regular.otf">
+            <string>SanFranciscoText-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Convidar Parceiro-->
+        <scene sceneID="Z2t-IS-lDo">
+            <objects>
+                <viewController storyboardIdentifier="MainSearchViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eow-XT-pG2" customClass="MainSearchViewController" customModule="Gondola" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n8V-bU-fJb"/>
+                        <viewControllerLayoutGuide type="bottom" id="bdt-Jz-UJC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pJe-5M-92q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SfF-pE-ARD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6J-ZA-3QV" userLabel="innerView">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MainSearch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZl-h1-PDz">
+                                                <rect key="frame" x="0.0" y="29" width="320" height="21"/>
+                                                <fontDescription key="fontDescription" name="SanFranciscoText-Medium" family="San Francisco Text" pointSize="18"/>
+                                                <color key="textColor" red="0.94117647059999998" green="0.0" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xiN-14-DAy" userLabel="userField" customClass="RoundedTextField" customModule="Gondola" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="141" width="288" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="LXS-s5-xNr"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.81960784310000001" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79Z-7w-c49" userLabel="userLabel" customClass="ValidableUILabel" customModule="Gondola" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="123" width="32" height="14"/>
+                                                <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="12"/>
+                                                <color key="textColor" red="0.98431372549999996" green="0.43921568630000002" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZNp-vH-NOe" userLabel="emailField" customClass="RoundedTextField" customModule="Gondola" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="215" width="288" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="Z8J-bf-xhm"/>
+                                                </constraints>
+                                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                                <color key="textColor" red="0.14901960780000001" green="0.14901960780000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="go"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" red="0.81960784310000001" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qwo-bl-YIi" userLabel="emailLabel" customClass="ValidableUILabel" customModule="Gondola" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="197" width="30" height="14"/>
+                                                <fontDescription key="fontDescription" name="SanFranciscoText-Regular" family="San Francisco Text" pointSize="12"/>
+                                                <color key="textColor" red="0.98431372549999996" green="0.43921568630000002" blue="0.74901960779999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLC-3b-biN" userLabel="inviteButton" customClass="RoundedPinkButton" customModule="Gondola" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="289" width="288" height="44"/>
+                                                <color key="backgroundColor" red="0.94117647059999998" green="0.0" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="SCf-rA-6Cx"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SanFranciscoText-Medium" family="San Francisco Text" pointSize="14"/>
+                                                <state key="normal" title="Do Something!">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.0"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="onDoSomethinClicked" destination="eow-XT-pG2" eventType="touchUpInside" id="ph6-lk-Obi"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have a nice project =D" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ye-EO-g6G">
+                                                <rect key="frame" x="20" y="55" width="280" height="38"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="280" id="F4u-av-Z8a"/>
+                                                    <constraint firstAttribute="height" constant="38" id="L2u-uX-KhV"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="SanFranciscoText-Light" family="San Francisco Text" pointSize="14"/>
+                                                <color key="textColor" red="0.5568627451" green="0.5568627451" blue="0.56078431370000004" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="HLC-3b-biN" secondAttribute="trailing" constant="16" id="7YM-xw-UlZ"/>
+                                            <constraint firstItem="6ye-EO-g6G" firstAttribute="centerX" secondItem="I6J-ZA-3QV" secondAttribute="centerX" id="8Dq-U4-N6E"/>
+                                            <constraint firstAttribute="trailing" secondItem="ZNp-vH-NOe" secondAttribute="trailing" constant="16" id="8Ef-3c-q9f"/>
+                                            <constraint firstItem="ZNp-vH-NOe" firstAttribute="top" secondItem="xiN-14-DAy" secondAttribute="bottom" constant="30" id="AEN-mX-PlG"/>
+                                            <constraint firstItem="HLC-3b-biN" firstAttribute="leading" secondItem="I6J-ZA-3QV" secondAttribute="leading" constant="16" id="HgK-bw-fZC"/>
+                                            <constraint firstItem="HLC-3b-biN" firstAttribute="centerX" secondItem="I6J-ZA-3QV" secondAttribute="centerX" id="IVh-Hu-l4I"/>
+                                            <constraint firstItem="HLC-3b-biN" firstAttribute="top" secondItem="ZNp-vH-NOe" secondAttribute="bottom" constant="30" id="MVo-CT-Jgd"/>
+                                            <constraint firstItem="xiN-14-DAy" firstAttribute="leading" secondItem="I6J-ZA-3QV" secondAttribute="leading" constant="16" id="PDL-c6-crh"/>
+                                            <constraint firstItem="HZl-h1-PDz" firstAttribute="top" secondItem="I6J-ZA-3QV" secondAttribute="top" constant="29" id="Rte-7I-ODM"/>
+                                            <constraint firstItem="HZl-h1-PDz" firstAttribute="leading" secondItem="I6J-ZA-3QV" secondAttribute="leading" id="SI7-1Y-Boa"/>
+                                            <constraint firstItem="xiN-14-DAy" firstAttribute="top" secondItem="79Z-7w-c49" secondAttribute="bottom" constant="4" id="SeP-EU-50n"/>
+                                            <constraint firstItem="xiN-14-DAy" firstAttribute="top" secondItem="6ye-EO-g6G" secondAttribute="bottom" constant="48" id="Vua-di-n5d"/>
+                                            <constraint firstItem="79Z-7w-c49" firstAttribute="leading" secondItem="xiN-14-DAy" secondAttribute="leading" id="XNn-hY-MIH"/>
+                                            <constraint firstItem="ZNp-vH-NOe" firstAttribute="leading" secondItem="I6J-ZA-3QV" secondAttribute="leading" constant="16" id="a7K-xO-2eK"/>
+                                            <constraint firstItem="ZNp-vH-NOe" firstAttribute="top" secondItem="Qwo-bl-YIi" secondAttribute="bottom" constant="4" id="cMP-VZ-RrM"/>
+                                            <constraint firstItem="6ye-EO-g6G" firstAttribute="top" secondItem="HZl-h1-PDz" secondAttribute="bottom" constant="5" id="kiy-Xv-jur"/>
+                                            <constraint firstItem="Qwo-bl-YIi" firstAttribute="leading" secondItem="ZNp-vH-NOe" secondAttribute="leading" id="kp0-9B-q2n"/>
+                                            <constraint firstAttribute="trailing" secondItem="xiN-14-DAy" secondAttribute="trailing" constant="16" id="x7Y-xR-RhT"/>
+                                            <constraint firstAttribute="trailing" secondItem="HZl-h1-PDz" secondAttribute="trailing" id="zor-1W-K9W"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="I6J-ZA-3QV" secondAttribute="trailing" id="23p-9s-qgB"/>
+                                    <constraint firstItem="I6J-ZA-3QV" firstAttribute="leading" secondItem="SfF-pE-ARD" secondAttribute="leading" id="JfY-hR-MrK"/>
+                                    <constraint firstAttribute="bottom" secondItem="I6J-ZA-3QV" secondAttribute="bottom" id="Y9e-Iy-z9j"/>
+                                    <constraint firstItem="I6J-ZA-3QV" firstAttribute="height" secondItem="SfF-pE-ARD" secondAttribute="height" id="o4l-13-NWY"/>
+                                    <constraint firstItem="I6J-ZA-3QV" firstAttribute="top" secondItem="SfF-pE-ARD" secondAttribute="top" id="ps4-47-azK"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SfF-pE-ARD" firstAttribute="centerX" secondItem="pJe-5M-92q" secondAttribute="centerX" id="Ai4-6I-GGy"/>
+                            <constraint firstItem="SfF-pE-ARD" firstAttribute="height" secondItem="pJe-5M-92q" secondAttribute="height" id="Fvg-JB-BOu"/>
+                            <constraint firstItem="SfF-pE-ARD" firstAttribute="centerY" secondItem="pJe-5M-92q" secondAttribute="centerY" id="RdU-XL-Eg9"/>
+                            <constraint firstItem="I6J-ZA-3QV" firstAttribute="width" secondItem="pJe-5M-92q" secondAttribute="width" id="dhG-lw-AlI"/>
+                            <constraint firstItem="SfF-pE-ARD" firstAttribute="width" secondItem="pJe-5M-92q" secondAttribute="width" id="sNK-1G-fgV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Convidar Parceiro" id="nc5-2x-780"/>
+                    <connections>
+                        <outlet property="scrollView" destination="SfF-pE-ARD" id="nhG-Xn-B14"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e75-T8-ETF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2081.25" y="117.25352112676056"/>
+        </scene>
+    </scenes>
+</document>
