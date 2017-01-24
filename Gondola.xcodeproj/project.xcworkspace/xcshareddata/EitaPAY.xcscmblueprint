@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FFFBD103B1794ED014ADDB22CA21C2EDBFA9F37" : 9223372036854775807,
+    "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "28486D4A-B624-4556-8040-775F1D14BBAD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FFFBD103B1794ED014ADDB22CA21C2EDBFA9F37" : "..",
+    "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71" : "eitapay-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "EitaPAY",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "EitaPAY.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:CheesecakeLabs\/CKLApp-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FFFBD103B1794ED014ADDB22CA21C2EDBFA9F37"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/eita\/eitapay-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3E152D85ED57D3E4545C6D6DD0F9F577E373F71"
+    }
+  ]
+}

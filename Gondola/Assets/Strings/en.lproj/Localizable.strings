@@ -1,0 +1,23 @@
+
+//
+//  EitaPAY
+//
+//  Created by MARCELO GRACIETTI on 12/11/16.
+//  Copyright © 2016 Cheesecake Labs. All rights reserved....
+//
+
+
+// General
+GENERIC_ERROR_MESSAGE = "Não foi possível realizar esta operação 😬"
+
+
+// LOGIN
+UNABLE_TO_LOGIN_WITH_CREDENTIALS = "Não foi possível fazer login com as credenciais fornecidas";
+
+// SIGN UP
+INVALID_USERNAME = "Usuário inválido";
+INVALID_EMAIL = "Endereço de email inválido";
+INVALID_PASSWORD = "Senha invalida";
+MUST_ACCEPT_TERMS_AND_CONDITIONS = "Você precisa aceitar os Termos e Condições de Uso";
+USERNAME_ALREADY_TAKEN = "Este usuário já existe";
+EMAIL_ALREADY_TAKEN = "Já existe um usuário cadastrado com este email";
